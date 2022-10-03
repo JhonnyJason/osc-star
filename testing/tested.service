@@ -1,0 +1,15 @@
+[Unit]
+Description=tested service :-)
+
+[Service]
+User=lenny
+Group=users
+
+ExecStart=/usr/bin/node /home/lenny/thingies/...
+WorkingDirectory=/home/lenny/testing/fake-working-directory
+
+Environment=SOCKETMODE=true
+Restart=no
+
+[Install]
+WantedBy=multi-user.target

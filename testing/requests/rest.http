@@ -1,0 +1,19 @@
+############################################################
+@local = https://localhost:6999
+@deploy = https://
+
+############################################################
+### local test requests
+POST {{local}}/route
+content-type: application/json
+
+{
+}
+
+############################################################
+### deployment requests
+POST {{deploy}}/route
+content-type: application/json
+
+{
+}

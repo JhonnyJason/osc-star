@@ -1,0 +1,9 @@
+[submodule "toolset"]
+	path = toolset
+	url = git@github.com:JhonnyJason/toolset.git
+[submodule "sources"]
+	path = sources
+	url = git@github.com:JhonnyJason/osc-star-sources.git
+[submodule "output"]
+	path = output
+	url = git@github.com:JhonnyJason/osc-star-output.git
