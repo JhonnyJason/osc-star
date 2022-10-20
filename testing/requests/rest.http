@@ -10,6 +10,13 @@ content-type: application/json
 {
 }
 
+
+POST {{local}}/testTwo
+content-type: application/json
+
+{
+}
+
 ############################################################
 ### deployment requests
 POST {{deploy}}/route
